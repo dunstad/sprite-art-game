@@ -1,0 +1,25 @@
+{
+  "filename": "assets/player.png",
+  "frame" : {
+    "width": 96,
+    "height": 96
+  },
+  "anchor" : {
+    "x": 0.8,
+    "y": 1
+  },
+  "animations": [
+    {
+      "name": "walk",
+      "frames": [0, 1, 2, 3, 4],
+      "fps": 16,
+      "loop": true
+    },
+    {
+      "name": "attack",
+      "frames": [16, 17, 18, 19, 20, 21, 22, 23],
+      "fps": 20,
+      "loop": false
+    }
+  ]
+}
